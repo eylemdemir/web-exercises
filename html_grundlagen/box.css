@@ -1,0 +1,51 @@
+#box {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-left: 600px;
+
+
+}
+
+#box div {
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid darkgray;
+}
+
+#image1 {
+    background-image: url("images/üsküdar.jpeg");
+    left: 0;
+    top: 0;
+
+}
+
+#image2 {
+    background-image: url("images/eminönüq.jpeg");
+    right: 0;
+    top: 0;
+
+}
+
+#image3 {
+    background-image: url("images/images.jpeg");
+    left: 0;
+    bottom: 0;
+}
+
+#image4 {
+    background-image: url("images/beylerbeyi3.jpeg");
+    right: 0;
+    bottom: 0;
+}
+
+#image5 {
+    background-image: url("images/galata.jpg");
+    left: 25%;
+    top: 25%;
+}
