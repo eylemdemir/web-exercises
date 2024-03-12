@@ -1,6 +1,7 @@
 h1{
     margin-left: 500px;
     font-size: 30px;
+
 }
 
  h1, h2,h3, h4, h5, h6{
@@ -9,11 +10,11 @@ h1{
      font-style: italic;
      font-size: 35px;
  }
-h1 + h2
 body {
     background-color: white;
     margin-inline: 100px;
 }
+
 
 #mainphoto2, #mainphoto4, #mainphoto5 {
     width: 300px;
@@ -49,9 +50,6 @@ body {
   margin-bottom: 70px;
 }
 
-a:visited{
-    color: red;
-}
 p::first-letter {
     color: #ff0000;
     font-size: xx-large;
@@ -72,5 +70,3 @@ strong {
     width: 100px;
     height: 20px;
 }
-
-

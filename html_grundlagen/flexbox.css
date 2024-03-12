@@ -1,0 +1,51 @@
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    background: orangered;
+    color: white;
+    border: 10px solid lightyellow;
+    padding: 1em;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: x-large;
+
+}
+
+.flexbox > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+}
+
+.flexbox li {
+    margin-right: 1em;
+    flex-grow: 0;
+    flex-shrink: 1;
+    /*  flex:1*/
+}
+
+.flexbox > form {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.flexbox input {
+    flex: 1;
+    border: 2px  solid black ;
+    font-family: "Copperplate Gothic Light", sans-serif;
+}
+
+.flexbox button {
+    background: white;
+    border: 2px  solid black ;
+    border-radius: 4em;
+    color: orangered;
+    padding: 0 1em;
+    margin-left: .3em;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    font-size: x-large;
+}
