@@ -10,11 +10,7 @@
     font-family: "Copperplate Gothic Light", sans-serif;
     font-size: x-large;
 }
-@media screen and (max-width: 575px) {
-    body {
-        flex-direction: column;
-    }
-}
+
 .flexbox > ul {
     list-style-type: none;
     padding: 0;

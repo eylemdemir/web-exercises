@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+    body{
+        font-size: small;
+    }
+    .flexbox {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .flexbox ul {
+        flex-direction: column-reverse;
+
+        margin-bottom: 1em;
+    }
+    .flexbox input{
+        flex-direction: column-reverse;
+    }
+    .flexbox button{
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    body {
+        background: white;
+    }
+}
+
+
+@media only screen and (min-width: 810px) and (max-width: 1000px) {
+    body {
+        background: white;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 2000px) {
+    body {
+        background: white;
+    }
+}
+
