@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .flexbox {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .flexbox ul {
+        flex-direction: column-reverse;
+
+        margin-bottom: 1em;
+    }
+    .flexbox input{
+        flex-direction: column-reverse;
+    }
+    .flexbox button{
+        flex-direction: column-reverse;
+    }
+
+}
+
