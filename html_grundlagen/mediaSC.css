@@ -9,10 +9,12 @@
 
         margin-bottom: 1em;
     }
-    .flexbox input{
+
+    .flexbox input {
         flex-direction: column-reverse;
     }
-    .flexbox button{
+
+    .flexbox button {
         flex-direction: column-reverse;
     }
 
